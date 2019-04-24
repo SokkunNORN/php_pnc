@@ -1,0 +1,7 @@
+{
+    
+    "require": {
+        "twitter/bootstrap": "^4.3",
+        "mervick/material-design-icons": "^2.2"
+    }
+}

@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<title>Jquery</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	</head>
+	<body>
+		<h1 title='click for this event' style="cursor:pointer;">Hello student web_2019</h1>
+		<p>Hello my student for class B 2019</p>
+		<p>Hello my student for class B 2019</p>
+		<p id='bynary'></p>
+		<script>
+			$(document).ready(function() {
+				$('p').hide();
+				$('h1').click(function() {
+					$('p').slideToggle(500);
+				});
+			});
+		</script>
+		
+	</body>
+</html>

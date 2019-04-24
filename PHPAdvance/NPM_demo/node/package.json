@@ -1,0 +1,19 @@
+{
+  "name": "demo_web",
+  "version": "1.0.0",
+  "description": "This is first learning npm",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hello",
+    "hohoh"
+  ],
+  "author": "Sokkun NORN",
+  "license": "ISC",
+  "dependencies": {
+    "twit": "^2.2.11"
+  }
+}

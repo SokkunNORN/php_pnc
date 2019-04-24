@@ -1,0 +1,25 @@
+git init
+touch .gitignore
+touch index.html 
+
+mkdir private
+mkdir public
+cd private
+    touch demo.html 
+    touch controller.php 
+    cd ../
+cd public 
+    touch demo.css 
+    touch responsive.css 
+
+vi .gitignore 
+    /public/* 
+    !public/demo.css 
+
+Test:
+git add .
+git status
+
+Remove from add:
+git rm --cached <fileName> : file by file 
+git rm --cached -r * : all add into git.
